@@ -9,12 +9,12 @@ namespace EquationsOfMotion
             return (displacement - (0.5 * acceleration * Math.Pow(time, 2))) / time;
         }
 
-        public static double InitialVelocityFromVTS(double finalVelocity, double time, double displacement)
+        public static double InitialVelocityFromSVT(double displacement, double finalVelocity, double time)
         {
             return 2 * displacement / time - finalVelocity;
         }        
 
-        public static double InitialVelocityFromVAS(double finalVelocity, double acceleration, double displacement)
+        public static double InitialVelocityFromSVA(double displacement, double finalVelocity, double acceleration)
         {
             return Math.Sqrt(Math.Pow(finalVelocity, 2) - 2 * acceleration * displacement);
         }

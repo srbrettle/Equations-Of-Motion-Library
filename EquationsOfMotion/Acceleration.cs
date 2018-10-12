@@ -9,12 +9,12 @@ namespace EquationsOfMotion
             return (finalVelocity - initialVelocity) / time;
         }
 
-        public static double AccelerationsFromUVS(double initialVelocity, double finalVelocity, double displacement)
+        public static double AccelerationsFromSUV(double displacement, double initialVelocity, double finalVelocity)
         {
             return (Math.Pow(finalVelocity, 2) - Math.Pow(initialVelocity, 2)) / (2 * displacement);
         }
 
-        public static double AccelerationsFromUTS(double initialVelocity, double time, double displacement)
+        public static double AccelerationsFromSUT(double displacement, double initialVelocity, double time)
         {
             return (2 * (displacement - initialVelocity * time)) / Math.Pow(time, 2);
         }        
