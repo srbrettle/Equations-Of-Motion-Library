@@ -17,6 +17,11 @@ namespace EquationsOfMotion
         public static double AccelerationsFromSUT(double displacement, double initialVelocity, double time)
         {
             return (2 * (displacement - initialVelocity * time)) / Math.Pow(time, 2);
-        }        
+        }
+
+        public static double AccelerationsFromSVT(double displacement, double finalVelocity, double time)
+        {
+            return (2 * (finalVelocity * time - displacement) / Math.Pow(time, 2));
+        }
     }
 }
