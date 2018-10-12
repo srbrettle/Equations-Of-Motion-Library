@@ -18,5 +18,10 @@ namespace EquationsOfMotion
         {
             return (2 * displacement) / time - initialVelocity;
         }
+
+        public static double FinalVelocityFromSAT(double displacement, double acceleration, double time)
+        {
+            return (displacement + 0.5 * acceleration * Math.Pow(time, 2)) / time;
+        }
     }
 }
