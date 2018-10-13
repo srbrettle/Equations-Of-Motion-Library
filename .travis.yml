@@ -7,4 +7,4 @@ install:
   - dotnet restore
 script:
   - dotnet build
-  - dotnet test ./UnitTest.EquationsOfMotion.csproj
+  - dotnet test ./UnitTest.EquationsOfMotion/UnitTest.EquationsOfMotion.csproj
