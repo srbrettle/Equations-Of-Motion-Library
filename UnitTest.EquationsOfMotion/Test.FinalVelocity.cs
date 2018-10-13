@@ -4,7 +4,7 @@ using static EquationsOfMotion.FinalVelocity;
 
 namespace UnitTest.EquationsOfMotion
 {
-    public class FinalVelocity
+    public class Test_FinalVelocity
     {
         [Fact]
         public void Test_FinalVelocityFromUAT()

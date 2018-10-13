@@ -4,7 +4,7 @@ using static EquationsOfMotion.Acceleration;
 
 namespace UnitTest.EquationsOfMotion
 {
-    public class Acceleration
+    public class Test_Acceleration
     {
         [Fact]
         public void Test_AccelerationsFromUVT()

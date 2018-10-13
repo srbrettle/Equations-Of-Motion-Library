@@ -2,9 +2,9 @@ using System;
 using Xunit;
 using static EquationsOfMotion.Displacement;
 
-namespace UnitTest_EquationsOfMotion
+namespace UnitTest.EquationsOfMotion
 {
-    public class Displacement
+    public class Test_Displacement
     {
         [Fact]
         public void Test_DisplacementFromUAT()

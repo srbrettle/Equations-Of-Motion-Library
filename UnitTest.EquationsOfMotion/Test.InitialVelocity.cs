@@ -4,7 +4,7 @@ using static EquationsOfMotion.InitialVelocity;
 
 namespace UnitTest.EquationsOfMotion
 {
-    public class InitialVelocity
+    public class Test_InitialVelocity
     {
         [Fact]
         public void Test_InitialVelocityFromSAT()

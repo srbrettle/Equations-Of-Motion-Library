@@ -4,7 +4,7 @@ namespace EquationsOfMotion
 {
     public static class Time
     {
-        public static double TimefromUVA(double initialVelocity, double finalVelocity, double acceleration)
+        public static double TimeFromUVA(double initialVelocity, double finalVelocity, double acceleration)
         {
             return (finalVelocity - initialVelocity) / acceleration;
         }
@@ -25,13 +25,13 @@ namespace EquationsOfMotion
         public static double TimeFromSUA(double displacement, double initialVelocity, double acceleration)
         {
             double finalVelocity = FinalVelocity.FinalVelocityFromSUA(displacement, initialVelocity, acceleration);
-            return TimefromUVA(initialVelocity, finalVelocity, acceleration);
+            return TimeFromUVA(initialVelocity, finalVelocity, acceleration);
         }
 
         public static double TimeFromSVA(double displacement, double finalVelocity, double acceleration)
         {
             double initialVelocity = InitialVelocity.InitialVelocityFromSVA(displacement, finalVelocity, acceleration);
-            return TimefromUVA(initialVelocity, finalVelocity, acceleration);
+            return TimeFromUVA(initialVelocity, finalVelocity, acceleration);
         }
     }
 }
