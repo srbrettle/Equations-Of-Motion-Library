@@ -3,7 +3,7 @@
 namespace EquationsOfMotion
 {
     /// <summary>
-    /// Equations for Constant Acceleration
+    /// Equations for Constant Acceleration.
     /// </summary>
     public static class Acceleration
     {
