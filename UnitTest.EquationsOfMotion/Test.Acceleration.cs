@@ -9,28 +9,28 @@ namespace UnitTest.EquationsOfMotion
         [Fact]
         public void Test_AccelerationsFromUVT()
         {
-            double result = AccelerationsFromUVT(10, 20, 5);
+            double result = AccelerationFromUVT(10, 20, 5);
             Assert.Equal(2, result);
         }
 
         [Fact]
         public void Test_AccelerationsFromSUV()
         {
-            double result = AccelerationsFromSUV(75, 10, 20);
+            double result = AccelerationFromSUV(75, 10, 20);
             Assert.Equal(2, result);
         }
 
         [Fact]
         public void Test_AccelerationsFromSUT()
         {
-            double result = AccelerationsFromSUT(75, 10, 5);
+            double result = AccelerationFromSUT(75, 10, 5);
             Assert.Equal(2, result);
         }
 
         [Fact]
         public void Test_AccelerationsFromSVT()
         {
-            double result = AccelerationsFromSVT(75, 20, 5);
+            double result = AccelerationFromSVT(75, 20, 5);
             Assert.Equal(2, result);
         }
     }
