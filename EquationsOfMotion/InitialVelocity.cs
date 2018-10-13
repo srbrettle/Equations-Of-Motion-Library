@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EquationsOfMotion
+namespace srbrettle.EquationsOfMotion
 {
     /// <summary>
     /// Equations for Initial Velocity.

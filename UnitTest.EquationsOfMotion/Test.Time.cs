@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using static EquationsOfMotion.Time;
+using static srbrettle.EquationsOfMotion.Time;
 
 namespace UnitTest.EquationsOfMotion
 {
@@ -25,6 +25,13 @@ namespace UnitTest.EquationsOfMotion
         {
             double result = TimeFromSUA(75, 10, 2);
             Assert.Equal(5, result);
+        }
+
+        [Fact]
+        public void Test_TimeFromSUAQuadratic()
+        {
+            double[] result = TimeFromSUAQuadratic(75, 10, 2);
+            Assert.Equal(5, result[0]);
         }
 
         [Fact]

@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using static EquationsOfMotion.Acceleration;
+using static srbrettle.EquationsOfMotion.Acceleration;
 
 namespace UnitTest.EquationsOfMotion
 {

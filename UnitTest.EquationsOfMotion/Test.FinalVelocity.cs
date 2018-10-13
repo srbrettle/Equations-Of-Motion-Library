@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using static EquationsOfMotion.FinalVelocity;
+using static srbrettle.EquationsOfMotion.FinalVelocity;
 
 namespace UnitTest.EquationsOfMotion
 {
