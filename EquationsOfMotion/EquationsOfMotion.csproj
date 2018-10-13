@@ -2,10 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.1.0.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Scott Brettle</Authors>
     <Description></Description>
+    <PackageProjectUrl>https://github.com/srbrettle/Equations-Of-Motion-Library</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/srbrettle/Equations-Of-Motion-Library</RepositoryUrl>
+    <PackageTags>physics, equations, motion, kinematic, displacement, velocity, acceleration, time</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/srbrettle/Equations-Of-Motion-Library/master/EquationsOfMotion.png</PackageIconUrl>
+    <PackageLicenseUrl>https://github.com/srbrettle/Equations-Of-Motion-Library/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
 </Project>
