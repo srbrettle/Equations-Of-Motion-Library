@@ -2,7 +2,7 @@
 
 namespace EquationsOfMotion
 {
-    public class FinalVelocity
+    public static class FinalVelocity
     {
         public static double FinalVelocityFromUAT(double initialVelocity, double acceleration, double time)
         {

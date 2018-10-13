@@ -2,7 +2,7 @@
 
 namespace EquationsOfMotion
 {
-    public class InitialVelocity
+    public static class InitialVelocity
     {
         public static double InitialVelocityFromSAT(double displacement, double acceleration, double time)
         {
@@ -12,7 +12,7 @@ namespace EquationsOfMotion
         public static double InitialVelocityFromSVT(double displacement, double finalVelocity, double time)
         {
             return 2 * displacement / time - finalVelocity;
-        }        
+        }
 
         public static double InitialVelocityFromSVA(double displacement, double finalVelocity, double acceleration)
         {

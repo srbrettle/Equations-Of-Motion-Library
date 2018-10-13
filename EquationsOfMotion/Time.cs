@@ -2,7 +2,7 @@
 
 namespace EquationsOfMotion
 {
-    public class Time
+    public static class Time
     {
         public static double TimefromUVA(double initialVelocity, double finalVelocity, double acceleration)
         {

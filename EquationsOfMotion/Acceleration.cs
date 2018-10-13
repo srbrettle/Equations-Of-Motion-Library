@@ -2,7 +2,7 @@
 
 namespace EquationsOfMotion
 {
-    public class Acceleration
+    public static class Acceleration
     {
         public static double AccelerationsFromUVT(double initialVelocity, double finalVelocity, double time)
         {

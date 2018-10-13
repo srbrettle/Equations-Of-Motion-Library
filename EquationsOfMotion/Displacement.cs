@@ -2,7 +2,7 @@
 
 namespace EquationsOfMotion
 {
-    public class Displacement
+    public static class Displacement
     {
         public static double DisplacementFromUAT(double initialVelocity, double acceleration, double time)
         {
@@ -18,11 +18,11 @@ namespace EquationsOfMotion
         {
             return (Math.Pow(finalVelocity, 2) - Math.Pow(initialVelocity, 2)) / (2 * acceleration);
         }
-    
+
         public static double DisplacementFromVAT(double finalVelocity, double acceleration, double time)
         {
             double initialVelocity = InitialVelocity.InitialVelocityFromVAT(finalVelocity, acceleration, time);
             return DisplacementFromUAT(initialVelocity, acceleration, time);
-        }       
+        }
     }
 }
