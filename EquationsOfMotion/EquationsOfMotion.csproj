@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Scott Brettle</Authors>
-    <Description></Description>
+    <Description>A collection of methods for solving Displacement, Initial and Final Velocities, Constant Acceleration and Time.</Description>
     <PackageProjectUrl>https://github.com/srbrettle/Equations-Of-Motion-Library</PackageProjectUrl>
     <RepositoryUrl>https://github.com/srbrettle/Equations-Of-Motion-Library</RepositoryUrl>
     <PackageTags>physics, equations, motion, kinematic, displacement, velocity, acceleration, time</PackageTags>
