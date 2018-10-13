@@ -1,0 +1,10 @@
+
+language: csharp
+solution: EquationsOfMotion.sln
+mono: none
+dotnet: 2.1
+install:
+  - dotnet restore
+script:
+  - dotnet build
+  - dotnet test ./Test/UnitTest.EquationsOfMotion.csproj
