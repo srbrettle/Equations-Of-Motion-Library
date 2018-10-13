@@ -3,7 +3,7 @@
 namespace EquationsOfMotion
 {
     /// <summary>
-    /// Equations for Final Velocity
+    /// Equations for Final Velocity.
     /// </summary>
     public static class FinalVelocity
     {
