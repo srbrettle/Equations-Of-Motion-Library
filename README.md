@@ -9,7 +9,6 @@ A collection of methods for solving Displacement, Initial and Final Velocities, 
 
 [Equations Of Motion - Android Application](https://play.google.com/store/apps/details?id=com.barwickapplications.calc.equationsofmotion)
 
-<!--
 ## Getting Started - C#
 
 ### Using NuGet [![NuGet](https://img.shields.io/badge/NuGet-1.0.0-blue.svg)](https://www.nuget.org/packages/EquationsOfMotion/1.0.0)
@@ -24,6 +23,9 @@ using srbrettle.EquationsOfMotion;
 ```
 3. Use the static library methods:
 ```c#
-double result = InitialVelocityFromVAT(20, 2, 5);
+double result = InitialVelocity.InitialVelocityFromVAT(20, 2, 5);
 ```
--->
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
